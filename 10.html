@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Country Selection</title>
+<style>
+  .capital {
+    display: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .country:focus + .capital,
+  .country:checked + .capital {
+    display: inline;
+  }
+</style>
+</head>
+<body align-content-center>
+
+<label for="india">India</label>
+<input type="radio" id="india" name="country" class="country">
+<span class="capital" align="center">New Delhi</span><br>
+
+<label for="france">France</label>
+<input type="radio" id="france" name="country" class="country">
+<span class="capital">Paris</span><br>
+
+<label for="germany">Germany</label>
+<input type="radio" id="germany" name="country" class="country">
+<span class="capital">Berlin</span><br>
+
+<label for="japan">Japan</label>
+<input type="radio" id="japan" name="country" class="country">
+<span class="capital">Tokyo</span><br>
+
+<label for="brazil">Brazil</label>
+<input type="radio" id="brazil" name="country" class="country">
+<span class="capital">Brasília</span><br>
+
+</body>
+</html>
